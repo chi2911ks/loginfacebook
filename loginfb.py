@@ -10,6 +10,7 @@ def GetCookie(user: str, password: str, twofa: str):
         "origin": "https://mbasic.facebook.com",
         "sec-ch-ua": '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
         "sec-ch-ua-mobile": "?0",
+        "accept-language": "vi",
         "sec-ch-ua-platform": '"Windows"',
         "sec-fetch-dest": "document",
         "sec-fetch-mode": 'navigate',

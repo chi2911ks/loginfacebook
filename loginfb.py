@@ -96,4 +96,4 @@ def GetCookie(user: str, password: str, twofa: str):
             cookie = fa.cookies
             cookie = "c_user=%s;fr=%s;sb=%s;xs=%s;datr=%s"%(cookie["c_user"], cookie["fr"], cookie["sb"], cookie["xs"], cookie["datr"])
     return {"status": "Success", "cookie": cookie}
-print(GetCookie("100080271526422", "NgocLy3312183Huy9999", "O3MKPJE4YZ64SDY6IW6GOHBAFQ2TPGXT"))
+# print(GetCookie("100080271526422", "NgocLy3312183Huy9999", "O3MKPJE4YZ64SDY6IW6GOHBAFQ2TPGXT"))

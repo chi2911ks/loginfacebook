@@ -74,7 +74,7 @@ def GetCookie(user: str, password: str, twofa: str):
         }
         fa = requests.post("https://mbasic.facebook.com/login/checkpoint/", data=data, headers=headers)
         cookie = fa.headers["Set-Cookie"].split(";")[0]
-        return cookie
+        return fa.text
         headers.update({"cookie": cookie})
         if 'Tài khoản của bạn tạm thời bị khóa' in fa.text:
             print("ff")
